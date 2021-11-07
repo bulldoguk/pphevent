@@ -66,5 +66,5 @@ function getBundleModuleNames() {
   return fs
     .readdirSync(source, { withFileTypes: true })
     .filter(dirent => dirent.isDirectory())
-    .map(dirent => `@pphs/${dirent.name}`);
+    .map(dirent => `@pph/${dirent.name}`);
 }
