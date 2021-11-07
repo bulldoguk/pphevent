@@ -62,7 +62,7 @@ module.exports = {
 };
 
 function getBundleModuleNames() {
-  const source = path.join(__dirname, './modules/@apostrophecms');
+  const source = path.join(__dirname, './modules/@pph');
   return fs
     .readdirSync(source, { withFileTypes: true })
     .filter(dirent => dirent.isDirectory())
