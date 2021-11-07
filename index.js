@@ -46,7 +46,7 @@ module.exports = {
           'startTime',
           'endTime'
         ]
-      },
+      }
     }
   },
   handlers(self, options) {
