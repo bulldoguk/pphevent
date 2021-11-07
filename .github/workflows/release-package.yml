@@ -1,4 +1,4 @@
-name: @bulldoguk/pphevent
+name: @bulldoguk/pphevent package
 
 on:
   release:
@@ -23,7 +23,6 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v2
-      # Setup .npmrc file to publish to npm
       - uses: actions/setup-node@v2
         with:
           node-version: 14
