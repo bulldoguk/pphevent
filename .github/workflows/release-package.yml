@@ -1,4 +1,4 @@
-name: @bulldoguk/pphevent package
+name: bulldoguk/pphevent package for apos3
 
 on:
   release:
