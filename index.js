@@ -62,9 +62,9 @@ module.exports = {
 };
 
 function getBundleModuleNames() {
-  const source = path.join(__dirname, './modules/@pph');
+  const source = path.join(__dirname, './modules/@pphevent');
   return fs
     .readdirSync(source, { withFileTypes: true })
     .filter(dirent => dirent.isDirectory())
-    .map(dirent => `@pph/${dirent.name}`);
+    .map(dirent => `@pphevent/${dirent.name}`);
 }
