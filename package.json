@@ -1,6 +1,6 @@
 {
   "name": "@bulldoguk/pphevent",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Main event module for PPH Apos3 projects",
   "main": "index.js",
   "scripts": {
